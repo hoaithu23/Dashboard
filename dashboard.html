@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hocgido</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/dashboard.css"/>
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <div class="header__container">
+            <img src="images/Logo_tron.png" alt="" class="header__img"/>
+            <a href="#" class="header__logo">Hocgido</a>
+
+            <div class="header__search">
+                <input type="search" placeholder="Tìm kiếm" class="header__input"/>
+                <i class="fas fa-search header__icon"></i>
+            </div>
+
+            <div class="header__toggle">
+                <i class="fas fa-bars" id="header-toggle"></i>
+            </div>
+        </div>
+    </header>
+    <!--NAV-->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="#" class="nav__link nav__logo">
+                    <img src="images/Logo_tron.png  " class="nav__icon"/>
+                    <span class="nav__logo-name">Hocgido</span>
+                </a>
+                <div class="nav__list">
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Pages</h3>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-user-graduate nav__icon"></i>
+                            <span class="nav__name">Hồ sơ cá nhân</span>
+                        </a>
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link active">
+                                <i class="fas fa-graduation-cap nav__icon"></i>
+                                <span class="nav__name">Khóa học</span>
+                                <i class="fas fa-chevron-down nav__icon nav__dropdown-icon"></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Lập trình C#</a>
+                                    <a href="#" class="nav__dropdown-item">Lập trình C++</a>
+                                    <a href="#" class="nav__dropdown-item">Lập trình Java</a>
+                                    <a href="#" class="nav__dropdown-item">Lập trình Mobile</a>
+                                    <a href="#" class="nav__dropdown-item">Lập trình Front-End</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-laptop-code nav__icon"></i>
+                            <span class="nav__name">Hocgido Online</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-user-edit nav__icon"></i>
+                            <span class="nav__name">Ghi chép</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-info-circle nav__icon"></i>
+                            <span class="nav__name">Về Hocgido</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-copy nav__icon"></i>
+                            <span class="nav__name">Bài viết</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-question-circle nav__icon"></i>
+                            <span class="nav__name">Hỏi đáp</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-bell nav__icon"></i>
+                            <span class="nav__name">Chi tiết</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class="fas fa-edit nav__icon"></i>
+                            <span class="nav__name">Phản hồi</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="nav__link nav__logout">
+                <i class="fas fa-sign-out-alt nav__icon"></i>
+                <span class="nav__name">Đăng xuất</span>
+            </a>
+        </nav>
+    </div>
+    
+    <!--MAIN JS-->
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
